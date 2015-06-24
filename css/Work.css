@@ -1,0 +1,50 @@
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container h1 {
+	text-align: center;
+	margin: 30px;
+}
+
+.container p {
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 24px;
+	/*padding: 50em, 0.1em, 0.1em, 0.1em;*/
+	padding-top: 10px;
+}
+
+
+.nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 20px 10px 20px;
+}
+
+.nav {
+	background-color: black;
+	/*my nav disapears when I comment out the line below */
+	position: fixed;
+	width: 100%;
+
+}
+
+.nav ul li a {
+	color: white;
+	transition: color 600ms;
+
+}
+
+.nav a:hover {
+	color: #ff0;
+	text-decoration: none;
+
+}
+
+.nav ul {
+	float: right;
+}

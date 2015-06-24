@@ -1,0 +1,20 @@
+html {
+	background: url("../img/portfolioheroimage resized.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.panel-body {
+	font-family: Georgia, Rockwell, serif;
+}
+
+.panel-heading {
+	background-color: #3333CC;
+}
+
+.panel-title {
+	color: #34495e;
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}

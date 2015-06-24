@@ -1,0 +1,148 @@
+.jumbotron p {
+	color: gray;
+}
+
+.jumbotron h2 {
+	color: #F5F5F5;
+}
+
+body {
+	position: relative;
+}
+
+.nav {
+	float: right;
+}
+
+.anchor {
+	padding-top: 50px;
+}
+
+#About {
+	padding-bottom: 5em;*/
+	padding-top: 60px;
+    margin-top: -40px;
+    margin-bottom: -20px;
+}
+
+#Contact {
+	padding-top: 30px;
+    margin-top: 40px;
+	background-image: url("../img/ny.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	height: 500px;
+}
+
+#Contact ul {
+	list-style: none;
+}
+
+#Work p {
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 24px;
+}
+
+#Work {
+	padding-top: 60px;
+    margin-top: -40px;
+}
+
+#FAQ {
+	padding-top: 60px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+}
+
+.twitter{
+	text-align: right;
+}
+
+footer {
+	margin-top: 5px;
+	padding-top: 50px;
+}
+
+.video{
+	text-align: center;
+	margin-bottom: 25px; 
+	margin-top: 25px;
+}
+
+.learn-more {
+	text-align: left;
+	float: left;
+}
+
+.modal-button {
+	float: right;
+	padding: 15px;
+}
+
+.modal-body {
+	height: 500px;
+}
+
+#modalframe {
+	padding: 10px;
+	width: 100%;
+	height;
+}
+
+tr {
+	text-align: left;
+	padding: 15px;
+}
+
+th, td {
+	padding: 15px;
+}
+
+table {
+	/*background-color: #D3D3D3;*/
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 50px;
+}
+
+.image2 {
+	box-sizing:border-box;
+	border: 2px solid pink;
+	width:200px;
+	height: 200px;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.info {
+	display: inline-block;
+	color: black;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	position: absolute;
+	top: 15%;
+	left: 22%
+}
+
+.proj-title {
+	font-weight: 100;
+}
+
+.work_image {
+	text-align: center;
+}
+
+
+
+
+
+
+

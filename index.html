@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Hello World!</title>
+
+    <!-- jQuery is required for Bootstrap to work -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template go here -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script src="js/jquery.media.js"></script>
+
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+
+    <script>
+      $(function () {
+        $('#item1').tooltip();
+      });
+    </script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    <script src="js/script.js"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBg1UF1AyVGZgpASXcsf8aGmhLG_DmKfaI"></script>
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+
+    <!-- navbar starts here -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <div class="projectName">
+            <a href="#">Pete</a>
+          </div> -->
+        </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="Index.html">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Contact">Contact</a></li>
+              <li><a href="#Work">Work</a></li>
+              <li><a href="#FAQ">faq</a></li>
+            </ul>
+          </div>
+      </div> <!-- end nav container -->
+    </nav>
+<!--       navbar ends here -->   
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- <div class="jumbotron"> -->
+        <div class="container-fluid">
+          <!-- <div class="About">
+            <a href="About.html"><h2>About</h2></a>
+          </div>
+          <div class="contact">
+            <a href="contact.html"><h2>Contact</h2></a>
+          </div> -->
+          <!-- <h1>Pete Garner. Webmaster.</h1>
+          <p><strong> Serving all your web development needs!</strong></p>
+          <a href="https://google.com">Learn More</a> -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              
+              <div class="item active">
+                <img src="img/portfolioheroimage2.jpg" alt="Image 2">
+                <div class="carousel-caption">
+                  <h3>High Tech</h3>
+                  <p>We can assist will all your high tech needs</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/portfolioheroimage3.jpg" alt="Image 3">
+                <div class="carousel-caption">
+                  <h3>Efficiency</h3>
+                  <p>Look at this hero image...we're efficient!</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/field.jpg" alt="Image 1">
+                <div class="carousel-caption">
+                  <h3>Freedom</h3>
+                  <p>set it free man!</p>
+                </div>
+              </div>
+              
+              ...
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+    <!-- </div> -->
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 col-xs-6">
+          <h2>Portfolio Concept</h2>
+          <p>I don't have any previous web development work to add here, but I hope that I can add some of my course work here as examples. </p>
+          <p>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="View Addtional Details">View details</button>
+          </p>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <h2>Project Goals</h2>
+          <p>I'm thinking about contributing about 2 hours per night to learning web development and additional time on weekends when I can.  I have a few side project sites that I have thought about conceptually, but I don't have the tools to execute them.  I'd really love to take what I learn here and start bringing some of my ideas to life.</p>
+          <p>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="More on Project Goals">View details</button>
+          </p>
+       </div>
+        <div class="col-md-4 col-xs-6">
+          <h2>Course Goals</h2>
+          <p>My course goals are really 3 tiered.  
+            <ul>
+              <li>First I am a certified salesforce.com consultant and I think that what I learn here will help boost some of my existing technical skills.
+              </li>
+              <li>Second I have a lot of ideas that I want to bring to life so doing web development during my free time is very interesting to me.
+              </li>
+              <li>Finally I want to branch out on my own and start to do salesforce.com consulting on my own, and when the opportunity is there I will also do some web development for clients as well.  This will also allow me to create / update / maintain my consulting company's website which would be a good project to complete during this course.
+              </li>
+            </ul>
+          </p>
+          <p>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="More on Course Goals">View details</button>
+          </p>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+    <!-- About Section -->
+    <div class="container" id="About">
+      <div class="container anchor" id="process">
+        <div class = "header">
+          <h1>About</h1>
+        </div>
+        <div class="image">
+          <img src="img/Pete.jpg" alt="picture">
+        </div>
+        <div class="intro column">
+          <h2>Introduction</h2>
+            <p>I'm a certified salesforce.com developer and soon to be kick ass web developer!  
+            </p>
+        </div>
+        <div class="skills column">
+          <h3>My Skills</h3>
+          <ul id="skill_list">
+            <li>Salesforce.com Certified <a href="http://certification.salesforce.com/administrators" title="Salesforce Admin Track" id="item1">Admin</a>  </li>
+            <li>Salesforce.com Certified Developer</li>
+            <li>Web Development</li>
+            <li>Sales</li>
+          </ul>
+        </div>
+        <div class="main_text">
+          <h3>More about me</h3>
+          <p>I love working with salesforce.com, web development, as well as Jiu Jitsu.  Let's work on some projects together, or I'll choke you out!</p>
+        </div>
+
+        <div class="row">
+          <h2 class="learn-more">Learn More</h2>
+          <div class="modal-button">
+          <!-- Small modal button -->
+          <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm" type="button">Resume</button>
+          </div>
+        </div>
+
+        <div class="capabilities">
+            <table class="table table-hover table-striped">
+            <tr class="my-row">
+              <th>Services</th>
+              <th>Salesforce Configuration</th>
+              <th>Salesforce Development</th>
+              <th>Web Development</th>
+              <th>Custom Web Development</th>
+            </tr>
+            <tr class="my-row">
+              <td>SFDC Configuration</td>
+              <td>&#10003</td>
+              <td>&#10003</td>
+              <td>&#10060</td>
+              <td>&#10060</td>
+            </tr>
+            <tr class="my-row">
+              <td>Apex</td>
+              <td>&#10060</td>
+              <td>&#10003</td>
+              <td>&#10060</td>
+              <td>&#10060</td>
+            </tr>
+            <tr class="my-row">
+              <td>Visualforce</td>
+              <td>&#10060</td>
+              <td>&#10003</td>
+              <td>&#10060</td>
+              <td>&#10060</td>
+            </tr>
+            <tr class="my-row">
+              <td>HTML / CSS</td>
+              <td>&#10060</td>
+              <td>&#10003</td>
+              <td>&#10003</td>
+              <td>&#10003</td>
+            </tr>
+            <tr class="my-row">
+              <td>Javascript / Ruby</td>
+              <td>&#10060</td>
+              <td>&#10003</td>
+              <td>&#10060</td>
+              <td>&#10003</td>
+            </tr>
+          </table>
+        </div>
+
+        
+        
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container" id="Contact">
+
+      <div class="col-lg-4 col-md-4">
+        <!-- <div id="map-canvas" style="height: 300px; width:250px;"> -->
+        <iframe width="300" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Lebanon%2C%20NJ%2C%20United%20States&key=AIzaSyBg1UF1AyVGZgpASXcsf8aGmhLG_DmKfaI">
+        </iframe>
+        <div class="container anchor" id="process">
+        <div class="row">
+          <h1>Contact</h1>
+            <div class="contact_channels">
+              <ul>
+                <li>
+                  <!-- <h2>Phone</h2> -->
+                  <p><span class= "glyphicon glyphicon-phone-alt"> (908) 255-3219</span></p>
+                </li>
+            
+                <li>
+                  <!-- <h2>Email</h2> -->
+                  <p><span class= "glyphicon glyphicon-envelope"></span> peterggarner@gmail.com</p>
+                </li>
+            
+                <li>
+                  <!-- <h2>Address</h2> -->
+                  <p><span class= "glyphicon glyphicon-map-marker"></span> Lebanon, NJ</p>
+                </li>
+              </ul>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8 col-md-8">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="*Name" id="name" required="required" title="Your Name Here">
+            <label for="name" class="sr-only">Name</label>
+          </div>
+
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="*Email" id="email" required="required" title="Please enter your email">
+            <label for="email" class="sr-only">email address</label>
+          </div>
+
+          <div class="form-group">
+            <input type="tel" class="form-control" placeholder="Phone" id="phone" required="optional" title="Enter a phone number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}">
+            <label for="phone" class="sr-only">phone</label>
+          </div>
+
+          <div class="form-group">
+            <textarea placeholder="Leave us a message!" style="resize:none" class="form-control" cols="40" rows="5" id="message" minlength="20"></textarea>
+            <label for="message" class="sr-only">message</label>
+          </div>
+          <p id="char-count"></p>
+          <button type="submit" class="btn btn-primary" id="button">Submit</button>
+        
+        </form>
+        <p id="visible-comment"></p>
+      </div>
+    </div>
+
+
+    <!-- Work Section -->
+    <div class="container" id="Work">
+      <div class="container anchor" id="process">
+        <h1>Work</h1>
+        <div class="row" id="row 1">
+          
+          <div class="col-md-3 col-xs-6"> 
+            <img src="img/nyk.jpg" alt="nyk" class="img-responsive">
+            <p>New York Knicks</p>
+          </div>
+          <div class="col-md-3 col-xs-6"> 
+            <img src="img/nyr.jpg" alt="nyr" class="img-responsive">
+            <p>New York Rangers</p>
+          </div>
+          <div class="col-md-3 col-xs-6"> 
+            <img src="img/nyy.jpg" alt="nny" class="img-responsive">
+            <p>New York Yankees</p>
+          </div>
+          <div class="col-md-3 col-xs-6"> 
+            <img src="img/nyg.jpg" alt="nyg" class="img-responsive">
+            <p>New York Giants</p>
+          </div>
+        </div>
+
+        <div class="video">
+          <h2>Video Example</h2>
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Pwrwf_8H25Y" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="work_image">
+      <div class="image2" id="0"></div>
+      <div class="image2" id="1"></div>
+      <div class="image2" id="2"></div>
+      <div class="image2" id="3"></div>
+    </div>
+
+    
+
+
+    <!-- FAQ Section -->
+    <div class="container" id="FAQ">
+      <div class="container anchor" id="process">
+        <h1>FAQ</h1>
+        <div class ="FAQ">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-plus"></span>
+            I want to know more about the capabilities of Salesforce.  How can I learn more about it quickly to see if it is a good fit for my business?
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                We offer a free consultation to discuss your business case and offer advice on considerations when implementing Salesforce.com.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-plus"></span>
+              What can I do to help me determine if Salesforce is the best solution before I make a purchase?
+                  </a>
+                </h4>
+              </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+            Salesforce offers a 30 day free trial so you can get in kick the tires before you buy.  You can sign up for a free trial directly from this site.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-plus"></span>
+              I need Salesforce like yesterday...How quickly can I get up and running?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                Implementation time lines vary based on complexity.  Generally a basic quick-start implementation can be as little as 2 - 3 weeks and complex projects can go on for several months or even a year.  A good approach is to roll out salesforce in a series of stages and get your base model CRM up and running first and then implement new features and enhancements on a regular basis.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-plus"></span>
+                Why does Salesforce.com structure their pricing model on a per user per month basis?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+              Back in 1999 when CEO Mark Benioff first came up with the idea for Salesforce.com, cloud computing for enterprise applications was a novel idea.  Back then others in the market place thought their model was crazy, but now everywhere you turn there is a new cloud based solution for everything.  Enterprise CRM software used to require hundreds of thousands of dollars in servers, software licenses, employee and consulting costs and take 6 months to a year to do anything.  Mark's vision was for enterprise software to be as easy to use as amazon.com.  The per model per month pricing structure made it easier and more affordable for companies of all sizes to implement a best in class CRM solution.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-plus"></span>
+                  Are there examples of how other companies are leveraging the power of Salesforce.com?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse">
+              <div class="panel-body">
+                We would be happy to share our case studies with you, please reach out so we can present our full list of solutions.  Another great resource is to look for salesforce success stories on youtube and see some excellent examples of how companies are using salesforce to become a customer company.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <footer>
+      &copy Peter Garner 2015
+
+      <div class="twitter">
+        <a href="https://twitter.com/pggarner" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @pggarner</a>
+
+        <script>
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        </script>
+      </div>
+
+      
+    </footer>
+    <!--  modal -->
+          <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title" id="myModalLabel">Resume</h4>
+                </div>
+                <div class="modal-body">
+                  <iframe id="modalframe"src="img/PG.pdf"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end modal -->
+  </body>
+</html>
+
+<script type="text/javascript">
+  var $root = $('html, body');
+    $('.navbar-nav a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+            scrollTop: $(href).offset().top
+        }, 500, function () {
+            window.location.hash = href;
+        });
+        return false;
+    });
+</script>
